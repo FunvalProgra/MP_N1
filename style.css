@@ -179,6 +179,8 @@ input:focus {
   color: var(--dark-primary);
 }
 
-.input-invalid {
+.input-invalid, .input-invalid:focus {
   border: 2px solid orangered;
 }
+
+ 
